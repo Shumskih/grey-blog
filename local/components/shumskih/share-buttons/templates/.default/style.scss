@@ -1,0 +1,16 @@
+.share-buttons {
+  width: 100%;
+  display: flex;
+
+  .share-buttons_icon {
+    margin-right: 0.3rem;
+    width: 2rem;
+    height: 2rem;
+    cursor:pointer;
+    transition: 0.2s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
